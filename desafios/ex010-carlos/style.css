@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family:'droid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+body {
+    background-color: rgb(132, 225, 173);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    width: 1650px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: darkslategray;
+    padding: 0px;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    background-image: linear-gradient(to bottom, #37c375, #299357, #1a5c38);
+}
+
+header > h1 {
+    margin: 0px;
+}
+nav {
+    text-align: left;
+    font-size: 13px;
+    margin: 0px;
+    
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(77, 128, 99, 0.589);
+    width: 800px;
+    margin: 0px auto 10px auto;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 10px;  
+}
+main > h1, h2 {
+      font-family: 'droid', Arial, Helvetica, sans-serif;
+    background-color: rgba(62, 129, 62, 0.473);
+    color: rgb(2, 37, 2);
+}
+      
+.android {
+    margin-left: 250px;
+}  
+ 
+.titulo {
+    color: white;
+    background-color: rgb(26, 92,56);
+    text-align: left;
+    margin-top: 4px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    width: 800px;
+    border-radius: 10px;
+  
+}
+footer {
+    background-color: white;
+    width: 800px;
+    margin-top:  20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    text-indent: 10px;
+    text-align: justify;
+    padding-top: 5px;
+    padding-left: 10px;  
+    padding-right: 10px;  
+    
+}
+footer > .partfinal {
+    margin: 0px;
+}
+.especial {
+    background-color: rgb(197, 235, 214);
+} 
+
+.checado::before {
+    content: '✔';
+}   
+.parfinal {
+    background-color: rgb(26, 92,56);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;  
+    border-width: 20px;
+    width: 1700px;
+}
+iframe {
+    border-color: rgb(0, 56, 0); 
+    border-width: 20px;
+    border-style: solid;
+    margin: -10px;
+}
+.ul1 {
+    display: inline-block;
+}
+.ul2 {
+    display: inline-block;
+   
+
+}
